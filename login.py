@@ -69,7 +69,7 @@ class Login:
                         os.system("python DashBoard.py")
                     else:
                         self.root.destroy()
-                        os.system("python category.py")
+                        os.system("python billing.py")
                         
         except Exception as ex:
             messagebox.showerror("Error!",f"Error due to: {str(ex)}",parent=self.root)
